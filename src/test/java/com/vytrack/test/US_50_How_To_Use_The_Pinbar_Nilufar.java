@@ -1,16 +1,16 @@
 package com.vytrack.test;
 
 
+import com.vytrack.utilities.BrowserUtils;
+import com.vytrack.utilities.ConfigurationReader;
+import com.vytrack.utilities.Driver;
+import com.vytrack.utilities.VytrackUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import utilities.BrowserUtils;
-import utilities.ConfigurationReader;
-import utilities.Driver;
-import utilities.VytrackUtils;
 
 public class US_50_How_To_Use_The_Pinbar_Nilufar {
 
