@@ -9,7 +9,6 @@ public class US_51_accessTo_Vehicle_contracts_Vesela  {
 
     @Test
     public void test(){
-
         VytrackUtils.loginAsDriver();
     }
 
