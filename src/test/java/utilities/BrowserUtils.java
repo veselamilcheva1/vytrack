@@ -55,16 +55,4 @@ public class BrowserUtils {
         Assert.assertEquals(driver.getTitle(), expectedTitle);
     }
 
-    public static void switchWindow(WebDriver driver, String expectedUrl) {
-        Set<String> allWindows = driver.getWindowHandles();
-        for (String each : allWindows) {
-            driver.switchTo().window(each);
-            if (driver.getCurrentUrl().contains(expectedUrl)) {
-                break;
-            }
-        }
-        System.out.println("Curent url = " + driver.getCurrentUrl());
-        System.out.println("Curent Title = " + driver.getTitle());
-        String title = driver.getTitle();
-    }
 }
